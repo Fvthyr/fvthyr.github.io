@@ -1,5 +1,5 @@
 .container {
-    width: 1000px;
+    width: 70%;
     background-color: lightgrey;
     margin: auto;
 }
@@ -10,11 +10,12 @@
 }
 
 .header marquee {
-    font-size: 30px;
+    font-size: 200%;
 }
 
 .content {
     padding-left: 10px;
+    padding-bottom: 12px;
 }
 
 .content p {
