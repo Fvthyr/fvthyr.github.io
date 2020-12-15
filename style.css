@@ -1,16 +1,14 @@
 .container {
     width: 70%;
     background-color: lightgrey;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .header {
-    width: 37%;
-    margin: auto;
-}
-
-.header marquee {
+    font-family: arial, sans-serif;
     font-size: 200%;
+    width: 200px;
+    margin: 0px auto;
 }
 
 .content {
