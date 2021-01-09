@@ -21,5 +21,6 @@
 }
 
 .content a {
+    margin-left: 3px;
     text-decoration: none;
 }
