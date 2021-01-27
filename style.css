@@ -36,13 +36,13 @@ a {
 }
 
 @media (max-width: 684px) {
-    .body {
-        width: 350px;
-    }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
+    body {
+        width: 480px;
+    }
     .container {
-        margin: 0;
+        margin: 10px;
     }
 }
