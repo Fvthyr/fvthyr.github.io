@@ -19,7 +19,6 @@ body {
 }
 
 .container {
-    width: 360px;
     margin-left: 40px;
 }
 
@@ -30,13 +29,20 @@ body {
 .container p, a {
     margin: 0;
 }
+
+p {
+    font-size: 35px;
+}
+
 a {
     text-decoration: none;
     color: grey;
 }
 
 @media (max-width: 1024px) {
+
     .container {
+        width: 80%;
         margin: auto;
     }
 }
