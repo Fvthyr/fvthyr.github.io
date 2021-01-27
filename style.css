@@ -9,15 +9,6 @@ body {
     color: white;
 }
 
-.marquee {
-    width: 225px;
-    margin: 10px auto;
-}
-
-.marquee marquee {
-    font-size: 35px;
-}
-
 .container {
     width: 360px;
     margin-left: 40px;
