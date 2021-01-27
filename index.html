@@ -1,30 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Fvthyr Main Web</title>
-	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+    margin: 0;
+    padding: 0;
+}
 
-	<div class="marquee">
-			<marquee behavior="alternate" class="hello">Hello Visitor!</marquee>
-		</div>
+body {
+    font-family: 'Varela Round', arial, sans-serif;
+    background-color: black;
+    color: white;
+}
 
-	<div class="container">
-		<h1>Fvthyr Home page</h1>
+.marquee {
+    width: 225px;
+    margin: 10px auto;
+}
 
-		<h2>Fvthyr's Web List :</h2>
+.marquee marquee {
+    font-size: 35px;
+}
 
-		<p>About Fvthyr</p>
-		<a href="https://fvthyr.github.io/Fvthyr/">Migite no Uta lyric by Kotoringo</a>
+.container {
+    width: 360px;
+    margin-left: 40px;
+}
 
-		<p>Migite No Uta Lyric</p>
-		<a href="https://fvthyr.github.io/migifvthyr/">Migite no Uta lyric by Kotoringo</a>
+.container > * {
+    margin: 30px;
+}
 
-		<p>Genshin Impact Character build and material</p>
-		<a href="https://fvthyr.github.io/GenshinChar/">Genshin Impact char</a>
-	</div>
+.container p, a {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
 
-</body>
-</html>
+@media (max-width: 1024px) {
+    .container {
+        margin: auto;
+    }
+}
