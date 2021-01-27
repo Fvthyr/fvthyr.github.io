@@ -9,7 +9,17 @@ body {
     color: white;
 }
 
+.marquee {
+    width: 225px;
+    margin: 10px auto;
+}
+
+.marquee marquee {
+    font-size: 35px;
+}
+
 .container {
+    width: 360px;
     margin-left: 40px;
 }
 
@@ -25,11 +35,8 @@ a {
     color: grey;
 }
 
-@media (max-width: 684px) {
-}
-
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .container {
-        margin: 10px;
+        margin: auto;
     }
 }
