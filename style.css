@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 350px;
     margin-left: 40px;
 }
 
@@ -33,12 +33,6 @@ body {
 a {
     text-decoration: none;
     color: grey;
-}
-
-@media (max-width: 684px) {
-    .container {
-        width: 350px;
-    }
 }
 
 @media (max-width: 360px) {
