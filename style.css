@@ -39,7 +39,7 @@ a {
     color: grey;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
 
     .container {
         width: 80%;
