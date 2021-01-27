@@ -42,8 +42,16 @@ a {
 @media (max-width: 1024px) {
 
     .container {
-        background-color: red;
-        width: 80%;
+        width: 90%;
         margin: auto;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    a {
+        font-size: 30px;
+    }
     }
 }
