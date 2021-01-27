@@ -39,7 +39,7 @@ a {
     color: grey;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 770px) {
 
     .container {
         background-color: red;
